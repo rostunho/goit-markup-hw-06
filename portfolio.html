@@ -64,11 +64,11 @@
           <!-- Фильтр -->
 
           <ul class="filter list">
-            <li class="item"><button type="button" class="button">Все</button></li>
-            <li class="item"><button type="button" class="button">Веб-сайты</button></li>
-            <li class="item"><button type="button" class="button">Приложения</button></li>
-            <li class="item"><button type="button" class="button">Дизайн</button></li>
-            <li class="item"><button type="button" class="button">Маркетинг</button></li>
+            <li class="item"><button type="button" class="filter-button">Все</button></li>
+            <li class="item"><button type="button" class="filter-button">Веб-сайты</button></li>
+            <li class="item"><button type="button" class="filter-button">Приложения</button></li>
+            <li class="item"><button type="button" class="filter-button">Дизайн</button></li>
+            <li class="item"><button type="button" class="filter-button">Маркетинг</button></li>
           </ul>
 
           <!-- Портфолио -->
@@ -342,6 +342,19 @@
             </li>
           </ul>
         </div>
+
+        <form action="#" class="subscribe">
+          <label class="title" for="subscribe">Подпишитесь на рассылку</label>
+          <div class="form-field">
+            <input type="email" class="input" placeholder="E-mail" id="subscribe" />
+            <button type="submit" class="button">
+              Подписаться
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
